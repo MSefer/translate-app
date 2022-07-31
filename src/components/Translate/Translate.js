@@ -13,7 +13,7 @@ function Translate() {
   useEffect(() => {
     const handler = setTimeout(async () => {
 
-      if (textValue) {git remote add origin https://github.com/user/repo.git
+      if (textValue) {
         const result = await translate(textValue);
         dispatch(setTranslatedText(result?.translatedText));
       } else {
