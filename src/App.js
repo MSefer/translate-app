@@ -66,7 +66,7 @@ function App() {
       addToHistory();
     }
     // eslint-disable-next-line
-  }, [text, translatedText]);
+  }, [translatedText]);
 
   return (
     <div className="App">
