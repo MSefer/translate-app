@@ -1,0 +1,29 @@
+.history-container {
+  margin-top: 30px;
+
+  h3 {
+    color: #5f6368;
+    font-weight: 500;
+  }
+
+  ul {
+    margin: 10px 0 0 0;
+    list-style-type: none;
+    padding-left: 26px;
+
+    li {
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #f2f2f2;
+
+      .text {
+        color: #282c34;
+        display: block;
+      }
+
+      .translatedText {
+        color: #616467;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.translate-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 8px 8px;
+  border-top: 0;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 20%);
+  margin: 0 auto;
+  background-color: #ffffff;
+
+  .translate-header {
+    display: flex;
+    border-bottom: 1px solid #f1f1f1;
+
+    .language {
+      flex: 1;
+      padding: 20px;
+      color: #1a73e8;
+      font-weight: 500;
+
+      &:first-child {
+        border-right: 1px solid #f1f1f1;
+      }
+    }
+  }
+
+  .translate {
+    display: flex;
+    border-bottom: 1px solid #f1f1f1;
+  }
+
+  textarea {
+    flex: 1;
+    border: 0;
+    padding: 20px;
+    font-size: 16px;
+
+    &:focus-visible {
+      outline: none;
+    }
+
+    &:first-child {
+      border-right: 1px solid #f1f1f1;
+    }
+  }
+}
